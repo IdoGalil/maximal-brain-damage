@@ -4,8 +4,8 @@
 
 This repository provides an implementation of the sign-bit attacks introduced in *Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips*. It includes a demonstration notebook with two examples:
 
-- image classification with EfficientNet-B0
-- language generation with Qwen3-30B-A3B-Thinking-2507
+- Image classification with EfficientNet-B0
+- Language generation with Qwen3-30B-A3B-Thinking-2507
 
 <p>
   <img src="./assets/dalmat.png" alt="Figure 1 from the paper" width="900">
@@ -13,9 +13,9 @@ This repository provides an implementation of the sign-bit attacks introduced in
 
 ## Repository
 
-- `demo.ipynb`: end-to-end demonstration notebook
-- `src/deep_neural_lesion/`: attack helpers used by the notebook
-- `assets/`: the dalmatian image used in the notebook and the teaser figure from the paper
+- `demo.ipynb`: End-to-end demonstration notebook
+- `src/deep_neural_lesion/`: Attack helpers used by the notebook
+- `assets/`: Images (the dalmatian image used in the notebook and Figure 1 from the paper)
 
 ## Getting started
 

@@ -1,0 +1,33 @@
+[project]
+name = "maximal-brain-damage-without-data-or-optimization-disrupting-neural-networks-via-sign-bit-flips"
+version = "0.1.0"
+description = "Reference implementation of the sign-bit attacks from Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips."
+requires-python = ">=3.10"
+readme = "README.md"
+dependencies = [
+  "accelerate>=0.30",
+  "ipykernel>=6.29",
+  "nbclient>=0.10",
+  "nbformat>=5.10",
+  "notebook>=7.2",
+  "numpy>=1.24",
+  "pillow>=10.0",
+  "safetensors>=0.4",
+  "timm>=1.0.15",
+  "torch==2.9.0",
+  "torchvision>=0.24.0",
+  "transformers>=4.57.0,<5",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

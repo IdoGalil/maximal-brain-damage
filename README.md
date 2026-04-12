@@ -14,7 +14,7 @@ This repository provides an implementation of the sign-bit attacks introduced in
 ## Repository
 
 - `demo.ipynb`: End-to-end demonstration notebook
-- `src/deep_neural_lesion/`: Attack helpers used by the notebook
+- `src/deep_neural_lesion/`: Attack implementation (DNL & 1P-DNL) and helpers, also used by the notebook
 - `assets/`: Images (the dalmatian image used in the notebook and Figure 1 from the paper)
 
 ## Getting started

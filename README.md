@@ -1,11 +1,11 @@
 # Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips
 
-[Paper](<paper URL goes here>) | [Demo Notebook](demo.ipynb)
+[Paper](https://arxiv.org/pdf/2502.07408) | [Demo Notebook](demo.ipynb)
 
 This repository provides an implementation of the sign-bit attacks introduced in *Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips*. It includes a demonstration notebook with two examples:
 
-- Image classification with EfficientNet-B0
-- Language generation with Qwen3-30B-A3B-Thinking-2507
+- image classification with EfficientNet-B0
+- language generation with Qwen3-30B-A3B-Thinking-2507
 
 <p>
   <img src="./assets/dalmat.png" alt="Figure 1 from the paper" width="900">
@@ -13,9 +13,9 @@ This repository provides an implementation of the sign-bit attacks introduced in
 
 ## Repository
 
-- `demo.ipynb`: End-to-end demonstration notebook
-- `src/deep_neural_lesion/`: Attack implementation (DNL & 1P-DNL) and helpers, also used by the notebook
-- `assets/`: Images (the dalmatian image used in the notebook and Figure 1 from the paper)
+- `demo.ipynb`: end-to-end demonstration notebook
+- `src/deep_neural_lesion/`: attack helpers used by the notebook
+- `assets/`: the dalmatian image used in the notebook and the teaser figure from the paper
 
 ## Getting started
 
@@ -33,3 +33,17 @@ The image section uses EfficientNet-B0, available in the `timm` model repository
 ### Language generation
 
 The language section uses `Qwen3-30B-A3B-Thinking-2507`. It first generates with the clean model and then reruns the same prompt after DNL and 1P-DNL.
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{galil2025maximal,
+  title={Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips},
+  author={Galil, Ido and Kimhi, Moshe and El-Yaniv, Ran},
+  journal={Transactions on Machine Learning Research},
+  year={2025},
+  url={https://arxiv.org/pdf/2502.07408}
+}
+```

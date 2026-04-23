@@ -36,8 +36,6 @@ The language section uses `Qwen3-30B-A3B-Thinking-2507`. It first generates with
 
 ## Citation
 
-If you find this work useful, please cite:
-
 ```bibtex
 @article{galil2025maximal,
   title={Maximal Brain Damage Without Data or Optimization: Disrupting Neural Networks via Sign-Bit Flips},
